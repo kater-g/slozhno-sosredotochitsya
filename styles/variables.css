@@ -30,6 +30,11 @@
   --page-padding-m: 20px;
   --header-padding: 20px;
   --decorated-zone-inset: 20px;
+  --decorated-zone-size: 25px;
+  --main-content-padding-s: 20px;
+  --main-content-padding-m: 40px;
+  --main-content-padding-l: 50px;
+  --main-content-padding-xl: 60px;
   --footer-padding: 20px;
   --gap-s: 10px;
   --gap-m: 20px;
