@@ -109,6 +109,7 @@
 .header__title-container {
   align-self: end;
 }
+
 .header__title {
   text-transform: lowercase;
   color: var(--header-title-color);
@@ -129,7 +130,7 @@
 .main__content {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 40px 0;
+  padding: 40px 0px 50px;
   gap: var(--gap-l);
 }
 
@@ -195,7 +196,7 @@ ul > li > .section__content > .list-item-title {
 }
 
 .section__cards > .section__title {
-  margin-block-end: var(--margin-block-end-m);
+  margin-block-end: var(--margin-block-end-s);
 }
 
 .images__container {
@@ -360,6 +361,10 @@ ul > li > .section__content > .list-item-title {
 
   .concentration-list {
     gap: var(--gap-m);
+  }
+
+  .section__cards > .section__title {
+    margin-block-end: var(--margin-block-end-m);
   }
 
   .images__container {
